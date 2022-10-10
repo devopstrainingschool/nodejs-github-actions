@@ -18,7 +18,6 @@ jobs:
       matrix:
         cache-dependency-path: .
         node-version: [14.x, 16.x, 18.x]
-        cache: 'npm'
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
